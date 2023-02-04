@@ -1982,6 +1982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  playerAnimator: {fileID: 0}
 --- !u!1 &1363012639
 GameObject:
   m_ObjectHideFlags: 0
