@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 345a951efef7b844ab271a299a1b5683
+guid: 308d58620d9422447a4db12683afe17d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,18 +101,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -131,16 +119,16 @@ TextureImporter:
     - name: Torso 2
       guid: 8c8643eb2fe99d04a8568a1f6ed657b3
       position: {x: 52.939648, y: 0.0000037111895, z: 3}
-      rotation: {x: 0, y: 0, z: 0.008617854, w: 0.99996287}
-      length: 49.531036
+      rotation: {x: 0, y: 0, z: 0.008617893, w: 0.9999629}
+      length: 49.531006
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: Neck 2
       guid: 6a715a0588b4a8b48bd41e8e5458ef6f
-      position: {x: 49.53101, y: -0.000009292029, z: 2}
-      rotation: {x: 0, y: 0, z: 0.0163662, w: 0.9998661}
+      position: {x: 49.530964, y: -0.0000047791946, z: 2}
+      rotation: {x: 0, y: 0, z: 0.016366163, w: 0.9998661}
       length: 17.098705
       parentId: 1
       color:
@@ -149,7 +137,7 @@ TextureImporter:
     - name: Thigh L 2
       guid: f4de4d9640d3bfe409e06986a349daa8
       position: {x: -27.323692, y: 34.154617, z: 0}
-      rotation: {x: 0, y: -0, z: 0.9999602, w: 0.008927064}
+      rotation: {x: 0, y: 0, z: 0.9999602, w: 0.008926871}
       length: 47.82407
       parentId: 0
       color:
@@ -157,8 +145,8 @@ TextureImporter:
         rgba: 4294967040
     - name: Leg L 2
       guid: 3ba4f5f1a1cc9ef498b741134e24eb07
-      position: {x: 47.824062, y: 0.000006011251, z: 0}
-      rotation: {x: 0, y: 0, z: 0.0356788, w: 0.9993633}
+      position: {x: 47.824074, y: -0.000008511062, z: 0}
+      rotation: {x: 0, y: 0, z: 0.03567865, w: 0.99936336}
       length: 47.885017
       parentId: 3
       color:
@@ -167,16 +155,16 @@ TextureImporter:
     - name: Thigh R 2
       guid: 66c53fc9bcb6ac141b70f9caa0494fd8
       position: {x: -32.446903, y: -38.42393, z: 0}
-      rotation: {x: 0, y: -0, z: 1, w: -0.00000004371139}
-      length: 47.816803
+      rotation: {x: 0, y: 0, z: 1, w: -0.00000012644055}
+      length: 47.816833
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Leg R 2
       guid: a702ec3f6981aa14d8288809d7f76daa
-      position: {x: 47.81681, y: -0.0000072727785, z: 0}
-      rotation: {x: 0, y: 0, z: -0.073473334, w: 0.99729717}
+      position: {x: 47.816845, y: -0.000012130096, z: 0}
+      rotation: {x: 0, y: 0, z: -0.073473506, w: 0.9972972}
       length: 46.611954
       parentId: 5
       color:
@@ -184,17 +172,17 @@ TextureImporter:
         rgba: 4278223103
     - name: Upper Arm L 2
       guid: 6e5d92accba11764fb8e8d6ab22ecc35
-      position: {x: 9.637642, y: 90.141, z: 3}
-      rotation: {x: 0, y: -0, z: 0.9939174, w: 0.110128164}
-      length: 50.25483
+      position: {x: 9.637641, y: 90.14101, z: 3}
+      rotation: {x: 0, y: 0, z: 0.9939174, w: 0.11012838}
+      length: 50.254883
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Arm L 2
       guid: 1474a815e196ff6498fe0335480ee372
-      position: {x: 50.25485, y: -0.0000061757073, z: 3}
-      rotation: {x: 0, y: 0, z: 0.116970494, w: 0.9931354}
+      position: {x: 50.25489, y: 0.000032357515, z: 3}
+      rotation: {x: 0, y: 0, z: 0.1169706, w: 0.99313545}
       length: 40.213345
       parentId: 7
       color:
@@ -202,17 +190,17 @@ TextureImporter:
         rgba: 4286643968
     - name: Upper Arm R 2
       guid: c6eebdad07c98f743a0c45f121bad8f4
-      position: {x: 0.21222763, y: -98.327675, z: 0}
-      rotation: {x: 0, y: -0, z: -0.99899966, w: 0.044719752}
-      length: 49.14717
+      position: {x: 0.21226197, y: -98.32768, z: 0}
+      rotation: {x: 0, y: 0, z: 0.9989996, w: -0.044719625}
+      length: 49.147182
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: Arm R 2
       guid: 17184ad29aca0fd479dc2a3f35eb9455
-      position: {x: 49.14717, y: 0.000015606067, z: 0}
-      rotation: {x: 0, y: 0, z: -0.13026918, w: 0.99147874}
+      position: {x: 49.14718, y: 0.00006133838, z: 0}
+      rotation: {x: 0, y: 0, z: -0.13026923, w: 0.9914787}
       length: 42.15192
       parentId: 9
       color:
@@ -220,8 +208,8 @@ TextureImporter:
         rgba: 4294901888
     - name: Head 2
       guid: 4e7dcc08e4761314b9f13685ecb0d807
-      position: {x: 43.832073, y: -3.4971561, z: 4}
-      rotation: {x: 0, y: 0, z: -0.042013474, w: 0.9991171}
+      position: {x: 43.832077, y: -3.4971435, z: 4}
+      rotation: {x: 0, y: 0, z: -0.042013407, w: 0.99911714}
       length: 61.963326
       parentId: 2
       color:
@@ -229,8 +217,8 @@ TextureImporter:
         rgba: 4286578943
     - name: Eye L 2
       guid: 197deedcc8325dd4bbba60ccd4f02539
-      position: {x: 36.032383, y: 58.920868, z: 5}
-      rotation: {x: 0, y: 0, z: 0.74980676, w: 0.6616569}
+      position: {x: 36.032326, y: 58.92085, z: 5}
+      rotation: {x: 0, y: 0, z: 0.7498067, w: 0.66165704}
       length: 18.862507
       parentId: 11
       color:
@@ -238,8 +226,8 @@ TextureImporter:
         rgba: 4278255615
     - name: Eye R 2
       guid: 4b882137e41feeb4198227b52f3c54e0
-      position: {x: 38.7761, y: -62.84955, z: 5}
-      rotation: {x: 0, y: -0, z: -0.71186364, w: 0.7023177}
+      position: {x: 38.77606, y: -62.849567, z: 5}
+      rotation: {x: 0, y: 0, z: 0.71186364, w: -0.70231783}
       length: 16.263252
       parentId: 11
       color:
@@ -247,8 +235,8 @@ TextureImporter:
         rgba: 4294901760
     - name: Hair front 2
       guid: a952f2c6606cbc145b17666c6319e22b
-      position: {x: 359.2158, y: -7.248055, z: 6}
-      rotation: {x: 0, y: -0, z: -0.99941325, w: 0.034252457}
+      position: {x: 359.21582, y: -7.2480216, z: 6}
+      rotation: {x: 0, y: 0, z: 0.99941325, w: -0.034252424}
       length: 63.009403
       parentId: 2
       color:
@@ -256,8 +244,8 @@ TextureImporter:
         rgba: 4294901760
     - name: Hair back 2
       guid: 27b163e55c668db4d8456b63b8cc648f
-      position: {x: 91.04463, y: -12.005615, z: 0}
-      rotation: {x: 0, y: 0, z: -0.01010754, w: 0.9999489}
+      position: {x: 91.044586, y: -12.005593, z: 0}
+      rotation: {x: 0, y: 0, z: -0.010107567, w: 0.9999489}
       length: 137.48376
       parentId: 14
       color:
@@ -265,17 +253,17 @@ TextureImporter:
         rgba: 4294901760
     - name: Eyebrow1 2
       guid: f5645962ed97eb4438a6f095e1bbd49c
-      position: {x: -2.039957, y: -19.79616, z: 5}
-      rotation: {x: 0, y: 0, z: -0.071561106, w: 0.9974362}
-      length: 9.34484
+      position: {x: -2.0399654, y: -19.796202, z: 5}
+      rotation: {x: 0, y: 0, z: -0.071560964, w: 0.9974362}
+      length: 9.344839
       parentId: 12
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Eyebrow2 L 2
       guid: f44c5dbbebb32404181d2db1e15c9f73
-      position: {x: 9.344835, y: 0.000015601752, z: 5}
-      rotation: {x: 0, y: 0, z: 0.22674952, w: 0.9739532}
+      position: {x: 9.3448515, y: -0.000020705944, z: 5}
+      rotation: {x: 0, y: 0, z: 0.22674961, w: 0.9739531}
       length: 9.351315
       parentId: 16
       color:
@@ -283,17 +271,17 @@ TextureImporter:
         rgba: 4278190335
     - name: Eyebrow1 R 2
       guid: 184ac7cf35f879843b89e1b95e04c945
-      position: {x: -2.0886128, y: 16.96051, z: 5}
-      rotation: {x: 0, y: 0, z: 0.10249852, w: 0.99473315}
-      length: 6.993374
+      position: {x: -2.0886045, y: 16.960522, z: 5}
+      rotation: {x: 0, y: -0, z: -0.102498636, w: -0.9947332}
+      length: 6.993358
       parentId: 13
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Eyebrow2 R 2
       guid: 930956407a74b574596e6e29d88f24e2
-      position: {x: 6.99336, y: -0.000020493202, z: 5}
-      rotation: {x: 0, y: 0, z: -0.234073, w: 0.97221905}
+      position: {x: 6.99336, y: -0.00000038499957, z: 5}
+      rotation: {x: -0, y: 0, z: 0.23407348, w: -0.97221893}
       length: 7.0981836
       parentId: 18
       color:
