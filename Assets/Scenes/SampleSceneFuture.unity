@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36792707f9abd5478f9329f91bb18df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: 0
+  parallaxEffect: 0.93
 --- !u!1 &6839028
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36792707f9abd5478f9329f91bb18df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: -5
+  parallaxEffect: 0.9
 --- !u!1 &294705335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,7 +1728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36792707f9abd5478f9329f91bb18df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: 0
+  parallaxEffect: 1
 --- !u!212 &559457646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1836,7 +1836,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &644936160
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1853,7 +1853,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &644936161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,8 +1889,8 @@ MonoBehaviour:
   - {fileID: 187174331}
   - {fileID: 1509383826}
   m_Bounds:
-    m_Center: {x: -0.011905313, y: -0.5819137, z: 0}
-    m_Extent: {x: 0.66442156, y: 1.5598793, z: 0}
+    m_Center: {x: -0.011905551, y: -0.58191323, z: 0}
+    m_Extent: {x: 0.66442156, y: 1.5598791, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -2716,7 +2716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36792707f9abd5478f9329f91bb18df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: -8
+  parallaxEffect: 0.3
 --- !u!1 &1192872689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,7 +3042,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1284115753
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3059,7 +3059,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1284115754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3093,8 +3093,8 @@ MonoBehaviour:
   - {fileID: 1733887334}
   - {fileID: 870599188}
   m_Bounds:
-    m_Center: {x: 0.039462388, y: -0.26229298, z: 0}
-    m_Extent: {x: 0.71289885, y: 1.4110346, z: 0}
+    m_Center: {x: 0.039462626, y: -0.26229322, z: 0}
+    m_Extent: {x: 0.71289843, y: 1.4110345, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -3603,7 +3603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36792707f9abd5478f9329f91bb18df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: -12
+  parallaxEffect: 1
 --- !u!1 &1455207635
 GameObject:
   m_ObjectHideFlags: 0
