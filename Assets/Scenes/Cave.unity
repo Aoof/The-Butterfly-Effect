@@ -1579,8 +1579,8 @@ MonoBehaviour:
   - {fileID: 187174331}
   - {fileID: 1509383826}
   m_Bounds:
-    m_Center: {x: -0.011905313, y: -0.5819137, z: 0}
-    m_Extent: {x: 0.66442156, y: 1.5598793, z: 0}
+    m_Center: {x: -0.011905551, y: -0.58191323, z: 0}
+    m_Extent: {x: 0.66442156, y: 1.5598791, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1880,7 +1880,6 @@ GameObject:
   m_Component:
   - component: {fileID: 731423745}
   - component: {fileID: 731423747}
-  - component: {fileID: 731423746}
   m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
@@ -1903,19 +1902,6 @@ Transform:
   m_Father: {fileID: 1515416649}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &731423746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731423744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b36792707f9abd5478f9329f91bb18df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxEffect: 1
 --- !u!212 &731423747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2051,8 +2037,8 @@ MonoBehaviour:
   - {fileID: 443773475}
   - {fileID: 312592642}
   m_Bounds:
-    m_Center: {x: 0.03579825, y: -1.2914686, z: 0}
-    m_Extent: {x: 0.97218996, y: 1.6794155, z: 0}
+    m_Center: {x: 0.035797775, y: -1.2914689, z: 0}
+    m_Extent: {x: 0.9721901, y: 1.679416, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -3039,8 +3025,8 @@ MonoBehaviour:
   - {fileID: 1733887334}
   - {fileID: 870599188}
   m_Bounds:
-    m_Center: {x: 0.039463103, y: -0.26229286, z: 0}
-    m_Extent: {x: 0.71289897, y: 1.4110346, z: 0}
+    m_Center: {x: 0.039463103, y: -0.2622931, z: 0}
+    m_Extent: {x: 0.71289885, y: 1.4110343, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0

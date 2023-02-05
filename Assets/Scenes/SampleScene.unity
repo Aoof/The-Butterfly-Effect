@@ -2890,6 +2890,7 @@ GameObject:
   - component: {fileID: 644936162}
   - component: {fileID: 644936161}
   - component: {fileID: 644936160}
+  - component: {fileID: 644936164}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -3025,6 +3026,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &644936164
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644936159}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &685568188
 GameObject:
   m_ObjectHideFlags: 0
@@ -6452,6 +6474,7 @@ GameObject:
   - component: {fileID: 1785793697}
   - component: {fileID: 1785793699}
   - component: {fileID: 1785793700}
+  - component: {fileID: 1785793701}
   m_Layer: 0
   m_Name: Pebble
   m_TagString: Untagged
@@ -6535,7 +6558,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1785793693}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: d8028950c5d22491db0b398eee4871cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1785793700
@@ -6564,6 +6587,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 27.28, y: 49.4}
   m_EdgeRadius: 0
+--- !u!50 &1785793701
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785793693}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1804408896
 GameObject:
   m_ObjectHideFlags: 0
