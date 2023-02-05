@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: Rope
   value: 1
   icon: {fileID: 21300000, guid: ed88bb92ee08e204ea30d4904a4a9a5f, type: 3}
+  price: 3

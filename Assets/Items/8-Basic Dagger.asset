@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: Basic Dagger
   value: 1
   icon: {fileID: 21300000, guid: 2973b51a46e5fb9429513d9b7c286a28, type: 3}
+  price: 5

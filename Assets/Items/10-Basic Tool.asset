@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: Basic Tool
   value: 1
   icon: {fileID: 21300000, guid: eeda52734ad5844428e936de1d896321, type: 3}
+  price: 5
