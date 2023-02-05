@@ -18,8 +18,11 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {    
-
+    {
+        if (DialogueManager.GetInstance().dialogueOn)
+        {
+            return;
+        }
         playerVelocity = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(moveSpeed * playerVelocity, 0);
 

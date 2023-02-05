@@ -34,10 +34,10 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange)
+        if (playerInRange && !DialogueManager.GetInstance().dialogueOn)
         {
             cueNPC.SetActive(true);
-            if (Input.GetKeyDown("space"))
+            if (Input.GetKeyDown("space"))//Input.GetKeyDown(KeyCode.Return))
             {
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }

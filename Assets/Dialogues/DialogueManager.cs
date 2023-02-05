@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Ink.Runtime;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,7 +11,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
 
-    private bool dialogueOn;
+    private Story currentStory;
+
+    public GameObject player;
+
+    public bool dialogueOn { get; private set; }
 
     private void Awake()
     {
@@ -35,9 +40,9 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJSON)
     {
+        currentStory = new Story(inkJSON.text);
         dialogueOn = true;
         dialoguePanel.SetActive(true);
-
         ContinueDialogue();
     }
 
@@ -50,7 +55,14 @@ public class DialogueManager : MonoBehaviour
 
     private void ContinueDialogue()
     {
-
+        if (currentStory.canContinue)
+        {
+            dialogueText.text = currentStory.Continue();
+        }
+        else
+        {
+            ExitDialogueMode();
+        }
     }
 
     // Update is called once per frame
@@ -61,7 +73,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetMouseButtonDown(0))
         {
             ContinueDialogue();
         }
