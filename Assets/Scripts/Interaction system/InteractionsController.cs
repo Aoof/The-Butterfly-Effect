@@ -10,13 +10,13 @@ public class InteractionsController : MonoBehaviour
         Debug.Log("InteractionController loaded");
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    void OnCollided(GameObject collision)
     {
-        Debug.Log("Interacted with " + collision.gameObject.name);
-        switch (collision.gameObject.name)
+        Debug.Log("Interacted with " + collision.name);
+        switch (collision.name)
         {
             case "Pebble":
-                collision.gameObject.GetComponent<Interactee>().ShowInteractionPrompt(gameObject);
+                collision.GetComponent<Interactee>().ShowInteractionPrompt(gameObject);
                 Debug.Log("Interacted with Pebble");
                 break;
             default:
