@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 6f;
-    public float boundary = 20f;
     public float yShift = -5.25f;
-    public Transform[] playerBoundaries = { null, null };
+    public float[] playerBoundaries = { 0f, 0f };
     private float playerVelocity;
     private Animator playerAnimator;
 
@@ -19,10 +18,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (DialogueManager.GetInstance().dialogueOn)
-        {
-            return;
-        }
         playerVelocity = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(moveSpeed * playerVelocity, 0);
 
@@ -32,11 +27,6 @@ public class PlayerController : MonoBehaviour
         playerAnimator.SetBool("Moving", playerVelocity != 0);
 
         transform.Translate(movement * Time.deltaTime);
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundary *-1, boundary), yShift, 0);
-
-        if (playerBoundaries[0])
-            playerBoundaries[0].position = new Vector3(boundary * -1, yShift);
-        if (playerBoundaries[1])
-            playerBoundaries[1].position = new Vector3(boundary, yShift);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, playerBoundaries[0], playerBoundaries[1]), yShift, 0);
     }
 }

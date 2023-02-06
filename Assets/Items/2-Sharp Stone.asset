@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   itemName: Sharp Stone
-  value: 1
+  quantity: 1
   icon: {fileID: 21300000, guid: 0b151cdf2f42f204b823acfa657d8d41, type: 3}
   price: 3

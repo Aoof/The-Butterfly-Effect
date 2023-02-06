@@ -4,23 +4,50 @@ using UnityEngine;
 
 public class InteractionsController : MonoBehaviour
 {
+    public GameObject interactPrompt;
+    public Vector3 promptLocation;
+    private GameObject interactedWith;
+
+    private GameObject promptGO;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("InteractionController loaded");
+        promptGO = Instantiate(interactPrompt);
+        promptGO.transform.SetParent(GameObject.Find("Canvas").transform);
+
+        promptGO.transform.position = new Vector3 (Screen.width/2.0f, promptLocation.y, promptLocation.z);
+        promptGO.transform.rotation = Quaternion.identity;
     }
 
-    void OnCollisionEnter2D(Collider2D collision)
+    private void Update()
     {
-        Debug.Log("Interacted with " + collision.gameObject.name);
-        switch (collision.gameObject.name)
+        if (Input.GetKeyDown(KeyCode.E) && interactedWith != null)
         {
-            case "Pebble":
-                collision.gameObject.GetComponent<Interactee>().ShowInteractionPrompt(gameObject);
-                Debug.Log("Interacted with Pebble");
-                break;
-            default:
-                break;
+            Interactee interactee = interactedWith.GetComponent<Interactee>();
+            if (interactee)
+                interactee.Action();
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Interactee interactee = collision.gameObject.GetComponent<Interactee>();
+        if (interactee)
+        {
+            promptGO.SetActive(true);
+            interactedWith = collision.gameObject;
+            promptGO.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = "[E] Interact with " + interactedWith.GetComponent<SpriteRenderer>().sprite.name;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Interactee interactee = collision.gameObject.GetComponent<Interactee>();
+        if (interactee)
+        { 
+            promptGO.SetActive(false);
+            if (collision.gameObject == interactedWith)
+                interactedWith = null;
         }
     }
 }

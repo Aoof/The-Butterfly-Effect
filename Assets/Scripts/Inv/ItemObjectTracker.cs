@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Inventory Item Data")]
-public class Item : ScriptableObject
+public class ItemObjectTracker : MonoBehaviour
 {
     public int id;
     public string itemName;

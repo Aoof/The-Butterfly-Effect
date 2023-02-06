@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 5
   itemName: Flint
-  value: 1
+  quantity: 1
   icon: {fileID: 21300000, guid: bbbf2ff0f70aace4f85a8b97ea24cb1e, type: 3}
   price: 1

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   itemName: Pebble
-  value: 1
+  quantity: 1
   icon: {fileID: 21300000, guid: fbd7e74d228a7034383197e19f146d03, type: 3}
   price: 1

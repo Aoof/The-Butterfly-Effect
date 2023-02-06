@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 81e151ca29f87c14694328433bda6bef
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Cave.unity
+    guid: 956e9f9ba510cac49ab599cb1ab960bc
+  - enabled: 1
+    path: Assets/Scenes/PreHistoric.unity
+    guid: 5b78ee599563c406cba3261af64794ba
+  - enabled: 1
+    path: Assets/Scenes/Future.unity
+    guid: 0604520541d5b214fa987a4033d0ad5c
+  - enabled: 1
+    path: Assets/Scenes/PostApo.unity
+    guid: beada22a5ee35834197087d18ed958cf
   m_configObjects: {}
