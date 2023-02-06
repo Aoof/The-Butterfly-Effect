@@ -53,6 +53,9 @@ public class Interactee : MonoBehaviour
             case 6:
                 SceneManager.LoadScene("PreHistoric", LoadSceneMode.Single);
                 break;
+            case 7:
+                SceneManager.LoadScene((Random.Range(-1, 1)  > 0) ? "PostApo" : "Future", LoadSceneMode.Single);
+                break;
             default:
                 break;
         }
